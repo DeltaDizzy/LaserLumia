@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="LaserLumia.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LaserLumia"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Center" Margin="0,15,0,0" Text="LaserLumia For Raspberry Pi v0.0.1" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="32"/>
+        
+        <Grid x:Name="LaserGrid" HorizontalAlignment="Right" Height="239" Margin="915,226,0,0" VerticalAlignment="Top" Width="347">
+            <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0" Text="Lasers:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+            <TextBox x:Name="LaserStateDisplay" HorizontalAlignment="Center" Margin="0,39,0,0" Text="Off" VerticalAlignment="Top" IsReadOnly="True" AcceptsReturn="False"/>
+            <Button Content="Toggle Lasers" HorizontalAlignment="Center" Margin="0,50,0,0" VerticalAlignment="Center" FontSize="18" Height="50" Width="150" Click="LaserToggle"/>
+        </Grid>
+        <Grid x:Name="DiskGrid" HorizontalAlignment="Left" Height="225" Margin="3,222,0,0" VerticalAlignment="Top" Width="347">
+            <TextBlock HorizontalAlignment="Center" Margin="0,0,0,0" Text="Disk:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
+            <TextBox x:Name="DiskStateDisplay" HorizontalAlignment="Center" Margin="65,34,218,0" Text="Static" VerticalAlignment="Top" IsReadOnly="False" AcceptsReturn="False" TextChanged="DiskStateDisplay_TextChanged"/>
+            <Button x:Name="ApplyDiskChanges" Content="Apply Changes" HorizontalAlignment="Center" Margin="101,120,96,0" VerticalAlignment="Top" FontSize="18" Height="50" Width="150" Click="ApplyDiskChanges"/>
+            <TextBox x:Name="DiskSpeedDisplay" HorizontalAlignment="Center" Margin="204,35,79,0" Text="" VerticalAlignment="Top" IsReadOnly="True" AcceptsReturn="False" TextChanged="DiskSpeedDisplay_TextChanged"/>
+        </Grid>
+    </Grid>
+</Page>

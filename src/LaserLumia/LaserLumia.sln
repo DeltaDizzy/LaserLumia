@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LaserLumia", "LaserLumia\LaserLumia.csproj", "{B1ACD7EA-4854-47C2-A803-7FF185926663}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Debug|ARM.Build.0 = Debug|ARM
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Debug|x64.ActiveCfg = Debug|x64
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Debug|x64.Build.0 = Debug|x64
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Debug|x64.Deploy.0 = Debug|x64
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Debug|x86.ActiveCfg = Debug|x86
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Debug|x86.Build.0 = Debug|x86
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Debug|x86.Deploy.0 = Debug|x86
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Release|ARM.ActiveCfg = Release|ARM
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Release|ARM.Build.0 = Release|ARM
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Release|ARM.Deploy.0 = Release|ARM
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Release|x64.ActiveCfg = Release|x64
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Release|x64.Build.0 = Release|x64
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Release|x64.Deploy.0 = Release|x64
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Release|x86.ActiveCfg = Release|x86
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Release|x86.Build.0 = Release|x86
+		{B1ACD7EA-4854-47C2-A803-7FF185926663}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31538401-7E98-44E0-8071-0AE41AB49BC8}
+	EndGlobalSection
+EndGlobal
